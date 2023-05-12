@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #f4c08a;
+    color: #333;
+}
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.http{
+    color: #f4c08a;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1 h2 h3{
+    padding-bottom: 25px;
+}
+p{
+    margin: 10px 0;
+
+}
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar  a{
+ color: #fff;   
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,#navbar ul li a.htp {
+    background: #444;
+    color:#f4c08a ;
+}
+.text{
+    color: #f4c08a;  
+  }
+  .high{
+      font-size: 20px;
+  }
+  #show{
+   background: url('../Image/showcase.jpg') no-repeat center center/cover;
+   height: 600px;
+  }
+  #show .cont{
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+  }
+  #show .cont h1{
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+  #show .cont p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+  }
+  #homein{
+    height: 400px;
+  }
+  #homein .img-info{
+    float: left;
+    width: 50%;
+    background: url('../Image/photo-1.jpg')no-repeat;
+    min-height: 100%;
+  }
+  #homein .cont-info{
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+  #homein .cont-info p{
+    padding: 20px;
+  }
